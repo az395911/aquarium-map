@@ -447,6 +447,7 @@ footer {
 }
 
 @media (max-width: 600px) {
+
     .container {
         padding: 10px;
     }
@@ -455,13 +456,28 @@ footer {
         font-size: 1.5rem;
     }
 
+    .map-container {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .map-content {
+        width: 900px;
+    }
+
+    .map-image {
+        width: 100%;
+        height: auto;
+    }
+
     .hotspot {
-        width: 26px;
-        height: 26px;
+        width: 44px;
+        height: 44px;
     }
 
     .hotspot-number {
-        font-size: 11px;
+        font-size: 16px;
         border-width: 2px;
     }
 
@@ -469,4 +485,3 @@ footer {
         display: none;
     }
 }
-
