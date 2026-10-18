@@ -269,7 +269,19 @@ main {
 .info-placeholder h2 {
     color: #00d2ff;
     margin-bottom: 15px;
-    font-size: 1.5rem;
+    font-size: 1.5rem;.tooltip {
+    display: block;
+}
+
+.hotspot.active {
+    z-index: 100;
+}
+
+.hotspot.active .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
 }
 
 .info-placeholder p {
@@ -481,7 +493,16 @@ footer {
         border-width: 2px;
     }
 
-    .tooltip {
-        display: none;
-    }
+   .tooltip {
+    display: block;
+}
+
+.hotspot.active {
+    z-index: 100;
+}
+
+.hotspot.active .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
 }
